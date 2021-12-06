@@ -1,0 +1,81 @@
+/** quando é colocado o asterísco, irá selecionar todos os elementos da página.**/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/**Para selecionar o id, basta colocar o hashtag**/
+#titulo{
+    font-family: tahoma;
+    color: rgb(58, 153, 241);
+    margin-left: 7%;
+    
+}
+#subtitulo{
+    font-family: tahoma;
+    color: rgb(58, 153, 241);
+    margin-left: 10%;
+
+}
+fieldset{
+    border:0;
+}
+
+body{
+
+    background-color: rgb(226, 221, 221);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    color:rgb(92, 93, 94);
+    margin-left: 36%;
+    margin-top:2%;
+    justify-content: center;
+}
+input,select,textarea,button{
+    border-radius:5px;
+}
+.campo{
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    color:rgb(88, 95, 99);
+    display:block;
+}
+fieldset.grupo .campo{
+    float:left;
+    margin-right: 1em;
+}
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #4a89e9;
+    box-shadow: 2px 2px 2px #4a89e9;
+
+}
+.campo select option{
+    padding-right:1em ;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: rgb(247, 245, 245);
+}
+.botao{
+    font-size: 1.2em;
+    background:#4a89e9;
+    border:0;
+    margin-bottom: 1em;
+    color: #ffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgb(124, 123, 123);
+    text-shadow: 1px 1px 1px rgb(124, 123, 123);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.botao:hover{
+    background: #0a0a0a;
+    box-shadow: inset 2px 2px 2px black;
+    text-shadow: none;
+
+}
